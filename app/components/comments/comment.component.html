@@ -1,0 +1,10 @@
+<div>
+  <button (click)="changeName('Cookie Monster')">
+    Change name
+  </button>
+  <h1>Hello {{name}}</h1>
+</div>
+
+<div *ngFor="let char of name.split(''), let i = index">
+  {{ i }} - {{ char }}
+</div>

@@ -1,0 +1,14 @@
+<div class='container mainWrapper'>
+	<div class='currentImage'>
+		<img [height]='imageHeight' src={{currentImage}} />
+	</div>
+	<div class='commentSidebar'>
+		<div *ngFor="let comment of comments" boldHover>
+		  {{ i }} - {{ comment.data.body }}
+		</div>
+<!-- 		<comments-sidebar
+		  [name]="name"
+		  (onNameChanged)="setName($event)">
+		</comments-sidebar> -->
+	</div>
+</div>
