@@ -1,0 +1,13 @@
+name : Guzl
+brand : Guzl
+description : A better way to view content
+keyword : fapping
+url : https://github.com/satoshi-fapamoto/guzl
+email : satoshifapamato@gmail.com
+twitter : elonmusk
+github : satoshi-fapamoto
+author : Satoshi Fapamoto
+year : 2017
+markdown : kramdown
+exclude :
+  - node_modules
